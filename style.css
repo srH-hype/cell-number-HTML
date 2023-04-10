@@ -1,0 +1,127 @@
+body {
+	margin: 0;
+	background-image: linear-gradient(0, #b1f7ff 0, #00a9ff 50%, #0062c6 100%);
+}
+
+.header-cointeiner{
+	width: 100%;
+	height: 140px;
+	background-image: linear-gradient(270deg, #5e615a 0, #51574c 25%, #3f4a3c 50%, #2d3d2d 75%, #1d3423 100%);
+	margin-bottom: 35px;
+}
+
+.header-conteiner-first-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 64px;
+  text-align: center;
+  color: #00E3FF;
+  margin: 1%;
+}
+
+h2 {
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  margin: 0%;
+  color: #00E3FF;
+}
+
+.phone-vibrate{
+	width: 70px;
+	height: 70px;
+	color: #00E3FF;
+}
+
+.multiple-metods-conteiner{
+	display: flex;
+  align-items: center; 
+  justify-content: center;
+	flex-direction: column;
+}
+
+.metod-conteiner{
+	width: 700px;
+	height: 490px;
+	background-color: #3F4A3C;
+	margin: 35px;
+	border-radius: 21px;
+	display: flex;
+  align-items: center; 
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.button-green {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  border-radius: 16px;
+  border: 2px solid #e5e5e5;
+  border-bottom: 8px solid #e5e5e5;
+  margin: 10px;
+  transition: all 0.1s;
+  display: inline-flex;
+  padding: 12px 28px;
+	background-color: #2CDC34;
+  border-color: #137517;
+}
+
+.button-green:active {
+  border-bottom: 2px solid #137517;
+}
+
+#metod-1-input-text{
+	height: 56px;
+	width: 350px;
+	text-align: center;
+	font-size: 49px;
+}
+
+#metod-2-input-text{
+	height: 56px;
+	width: 350px;
+	text-align: center;
+	font-size: 49px;
+}
+
+@media only screen and (max-width: 870px){
+	h1{
+		font-size: 49px;
+	}
+	h2{
+		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	h1{
+		font-size: 42px;
+	}
+	h2{
+		font-size: 21px;
+	}
+
+	.metod-conteiner{
+		width: 420px;
+		height: 280px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.phone-vibrate{
+		width: 45px;
+		height: 45px;
+	}
+	.metod-conteiner{
+		width: 300px;
+		height: 280px;
+	}
+}
